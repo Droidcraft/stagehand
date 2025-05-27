@@ -8,7 +8,7 @@ screenshot.png
 .cache/
 .env
 downloads/
-dist/
+# dist/ - commented out to include built files for GitHub installs
 evals/**/public
 lib/dom/build/
 evals/public

@@ -1,0 +1,15 @@
+declare const parsedArgs: {
+    evalName?: string;
+    env?: string;
+    trials?: number;
+    concurrency?: number;
+    extractMethod?: string;
+    provider?: string;
+    leftover: string[];
+};
+declare const useTextExtract: boolean;
+declare const useAccessibilityTree: boolean;
+declare const DEFAULT_EVAL_CATEGORIES: string[];
+declare let filterByCategory: string | null;
+declare let filterByEvalName: string | null;
+export { filterByCategory, filterByEvalName, useTextExtract, useAccessibilityTree, DEFAULT_EVAL_CATEGORIES, parsedArgs, };
